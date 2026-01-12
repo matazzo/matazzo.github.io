@@ -123,7 +123,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #787878;
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -2240,6 +2240,27 @@ input, select, textarea {
 			}
 
 /* Actions */
+
+
+
+/* bouton learn more */
+.learn-more summary {
+  list-style: none;
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+
+/* Supprime la flèche par défaut */
+.learn-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.learn-more .more-content {
+  margin-top: 0em;
+}
+
+
+
 
 	ul.actions {
 		display: -moz-flex;
